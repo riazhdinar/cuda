@@ -1,0 +1,528 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+	/* common padding start */
+	.c-s-p{
+		padding: 60px 0;
+	}
+
+	.s-item{
+		padding: 40px 20px 0;
+	}
+
+	/* common padding end */
+
+
+
+	/* header start */
+		.menu ul{
+			padding: 20px 0;
+		}
+		.menu ul li a{
+			margin: 0px;
+    		padding: 5px 0px !important;
+		}
+		.menu ul li a:hover{
+			padding: 5px 10px !important;
+		}
+	/* header end */
+
+	/* hero start */
+	.c-s-p{
+		padding: 60px 0;
+	}
+	.h_h1 h1 {
+	    font-size: 31px;
+	}
+
+	.c_btn{
+		margin: 50px 0 0px;
+	}
+	.c_btn button{
+		padding: 15px 40px;
+		font-size: 16px;
+		border-bottom: 3px solid #c86a40;
+	}
+
+	/* hero end */
+
+	/* service start */
+
+	.c-h1{
+		font-size: 28px;
+	}
+	.c-h1:after{
+		width: 50px;
+	}
+
+	.c-p{
+		margin: 20px auto;
+		width: 90%;
+		font-size: 16px;
+	}
+
+	.s-icon img{
+		height: 80px;
+	}
+
+	.s-item h3{
+		margin: 15px 0 0;
+		font-size: 20px;
+	}
+	.s-item p{
+		margin: 15px auto 0;
+		font-size: 14px;
+		width: 80%; 
+	}
+	/* service end */
+
+	/* team start */
+	.t-img img{
+		height: 130px;
+	}
+
+	.t-item h6{
+		font-size: 14px;
+	}
+
+	/* team end */
+
+	/* skill start */
+	svg.radial-progress{
+		max-width: 140px;
+	}
+	/* skill end */
+
+	/* protfolio start */
+
+	
+	.p-btn button{
+		margin: 0px 4px;
+		padding: 6px 14px;
+		font-size: 16px;
+	}
+
+	/* .p-item{
+		padding: 20px 0 0px;
+	} */
+
+	.p-img {
+		padding: 0 20px;
+	}
+
+	.p-img h6{
+		margin: 15px 0 0;
+		font-size: 16px;
+	}
+
+	.p_btn button{
+		border-bottom: 3px solid #14a58c;
+	}
+
+	/* protfolio end */
+
+	/* testimoneal start */
+	.tt-img{
+		text-align: center;
+	}
+	.tt-img img{
+		height: 70px;
+	}
+
+	.tt-caption {
+		margin: 0 auto;
+		padding: 0;
+		width: 85%;
+		text-align: center;
+	}
+
+	.tt-caption h6{
+		margin: 6px 0 0;
+		font-size: 14px;
+	}
+	/* testimoneal end */
+
+	/* contact start */
+
+	.contact-info{
+		margin: 25px 0 15px;
+	}
+	.name, .email, .messege{
+		margin: 8px 0 0;
+		font-size: 14px;
+	}
+	.contact_btn{
+		margin: 20px 0 0px;
+	}
+	.contact_btn button{
+		border-bottom: 3px solid #299ec5;
+	}
+	.contact_btn button:hover{
+		color: #299ec5 !important;
+	}
+
+	/* contact end */
+
+	/* footer start */
+	.f-item ul{
+		margin: 40px 0;
+	}
+
+	.f-item ul li{
+		padding: 3px 7px;
+		font-size: 20px;
+	}
+	.f-item ul li:not(:last-child){
+		margin-right: 0px;
+	}
+
+	/* footer end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/* common padding start */
+	.c-s-p{
+		padding: 70px 0;
+	}
+
+	.s-item{
+		padding: 45px 20px 0;
+	}
+
+	/* common padding end */
+
+	/* header start */
+	.menu ul{
+		padding: 20px 0;
+	}
+	.menu ul li a{
+		margin: 0px;
+    	padding: 5px 0px !important;
+	}
+	.menu ul li a:hover{
+		padding: 5px 10px !important;
+	}
+	/* header end */
+
+	/* hero start */
+
+	.h_h1 h1 {
+	    font-size: 35px;
+	}
+
+	.c_btn{
+		margin: 55px 0 0;
+	}
+	.c_btn button{
+		padding: 18px 45px;
+		font-size: 16px;
+		border-bottom: 3px solid #c86a40;
+	}
+	/* hero end */
+
+	/* service start */
+
+	.c-h1{
+		font-size: 28px;
+	}
+	.c-h1:after{
+		width: 50px;
+	}
+
+	.c-p{
+		font-size: 16px;
+	}
+
+	.s-icon img{
+		height: 80px;
+	}
+
+	.s-item h3{
+		margin: 25px 0 0;
+		font-size: 20px;
+	}
+	.s-item p{
+		margin: 20px 0 0;
+		font-size: 14px; 
+	}
+	/* service end */
+
+	/* team start */
+	.t-img img{
+		height: 150px;
+	}
+	.t-item h6{
+		font-size: 14px;
+	}
+	/* team end */
+
+	/* skill start */
+	svg.radial-progress{
+		max-width: 160px;
+	}
+	/* skill end */
+
+	/* protfolio start */
+
+	.p-btn{
+	    margin: 30px 0 0;
+	}
+
+	.p-btn button{
+		margin: 0px 4px;
+		padding: 6px 14px;
+		font-size: 16px;
+	}
+
+	.p-item{
+		padding: 45px 0 0;
+	}
+
+	.p-img {
+		padding: 0;
+	}
+	.p-img h6{
+		margin: 15px 0 0;
+		font-size: 16px;
+	}
+
+	.p_btn{
+		margin: 55px 0 0;
+	}
+
+	.p_btn button{
+		border-bottom: 3px solid #14a58c;
+	}
+
+	/* protfolio end */
+
+	/* testimoneal start */
+	.tt-img img{
+		height: 80px;
+	}
+	.tt-caption{
+		padding: 0 10px;
+	}
+	.tt-caption p{
+		font-size: 16px;
+		margin: 0;
+	}
+
+	.tt-caption h6{
+		margin: 6px 0 0;
+		font-size: 14px;
+	}
+	/* testimoneal end */
+
+	/* contact start */
+
+	.contact-info{
+		margin: 30px 0 15px;
+	}
+	.name, .email, .messege{
+		margin: 12px 0 0;
+		font-size: 16px;
+	}
+	.contact_btn{
+		margin: 20px 0 0;
+	}
+	.contact_btn button{
+		border-bottom: 3px solid #299ec5;
+	}
+	.contact_btn button:hover{
+		color: #299ec5 !important;
+	}
+
+	/* contact end */
+
+	/* footer start */
+
+	.f-item ul li{
+		padding: 3px 10px;
+		font-size: 20px;
+	}
+	.f-item ul li:not(:last-child){
+		margin-right: 0px;
+	}
+
+	/* footer end */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	/* common padding start */
+	.c-s-p{
+		padding: 80px 0;
+	}
+
+	.s-item{
+		padding: 45px 20px 0;
+	}
+
+	/* common padding end */
+
+
+
+	/* header start */
+	.menu ul{
+			padding: 20px 0;
+	}
+	.menu ul li a{
+		margin: 0px;
+		padding: 5px 0px !important;
+	}
+	.menu ul li a:hover{
+		padding: 5px 10px !important;
+	}
+	/* header end */
+
+	/* hero start */
+
+	.h_h1 h1 {
+	    font-size: 38px;
+	}
+
+	.c_btn{
+		margin: 60px 0 0;
+	}
+	.c_btn button{
+		padding: 18px 46px;
+	}
+	/* hero end */
+
+	/* service start */
+
+	.c-h1{
+		font-size: 35px;
+	}
+	.c-h1:after{
+		width: 60px;
+	}
+
+	.c-p{
+		font-size: 18px;
+	}
+	.s-icon img{
+		height: 100px;
+	}
+
+	.s-item h3{
+		margin: 25px 0 0;
+		font-size: 22px;
+	}
+	.s-item p{
+		margin: 20px 0 0;
+		font-size: 16px; 
+	}
+	/* service end */
+
+	/* team start */
+	.t-img img{
+		height: 170px;
+	}
+	/* team end */
+
+	/* skill start */
+	svg.radial-progress{
+		max-width: 160px;
+	}
+	/* skill end */
+
+	/* protfolio start */
+
+	.p-btn{
+	    margin: 20px 0 0;
+	}
+
+	.p-btn button{
+		margin: 0px 4px;
+		padding: 6px 14px;
+		font-size: 16px;
+	}
+
+	/* .p-item{
+		padding: 40px 0 15px;
+	} */
+
+	.p-img {
+		padding: 0 10px;
+	}
+	.p-img h6{
+		margin: 20px 0 0;
+		font-size: 18px;
+	}
+	/* protfolio end */
+
+	/* testimoneal start */
+
+	.tt-img img{
+		height: 70px;
+	}
+	.tt-caption{
+		padding: 0 0 0 10px;
+	}
+
+	.tt-caption p{
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.tt-caption h6{
+		margin: 8px 0 0;
+		font-size: 16px;
+	}
+	/* testimoneal end */
+
+	/* contact start */
+
+	.contact-info{
+		margin: 40px 0 20px;
+	}
+	.contact_btn{
+		margin: 35px 0 0;
+	}
+	.contact_btn button{
+		border-bottom: 3px solid #299ec5;
+	}
+	.contact_btn button:hover{
+		color: #299ec5 !important;
+	}
+
+	/* contact end */
+
+	/* footer start */
+
+	.f-item ul li{
+		padding: 3px 10px;
+		font-size: 22px;
+	}
+	.f-item ul li:not(:last-child){
+		margin-right: 0px;
+	}
+
+	/* footer end */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+	
+
+}
